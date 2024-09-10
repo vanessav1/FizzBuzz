@@ -1,9 +1,9 @@
 public class Multiples {
-    public static void main(String[] args) {
+    public static void main(int n, int x, int y) {
         int count = 0;
         int i = 1;
-        while (i < 1000) {
-            if (i % 3 == 0 || i % 5 == 0){
+        while (i < n) {
+            if (i % x == 0 || i % y == 0){
                 count ++;
             }
             i++;
